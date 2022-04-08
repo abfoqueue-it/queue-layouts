@@ -3,7 +3,6 @@ body {
   background-color: #fff;
   color: #000;
   -webkit-font-smoothing: antialiased;
-
   /*
     font-family: 'Open Sans', sans-serif;
     font-family: Helvetica, Arial, sans-serif;
@@ -58,6 +57,8 @@ body {
 
 #wrapper {
   min-height: 0;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
 }
 /* mainbox */
 #main {
@@ -420,6 +421,11 @@ body.exit .btn {
 }
 #MainPart_divExitLine {
   display: none;
+}
+@media screen and (max-width: 768px) {
+  #wrapper {
+    display: inline;
+  }
 }
 @media screen and (max-width: 540px) {
   .reminder-form .item-input,

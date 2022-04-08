@@ -18,7 +18,8 @@
 }
 
 #rightpanel {
-  display: none;
+  /* display: none; */
+  background-color: bisque;
 }
 
 #sidebar {
