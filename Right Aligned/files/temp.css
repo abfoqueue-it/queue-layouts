@@ -10,7 +10,8 @@
 }
 
 #leftpanel {
-  display: none;
+  /* display: none; */
+  background-color: bisque;
 }
 
 #middlepanel {
